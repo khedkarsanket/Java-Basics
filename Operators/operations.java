@@ -1,3 +1,5 @@
+package Operators;
+
 import java.util.Scanner;
 
 public class operations {
@@ -30,6 +32,8 @@ public class operations {
         // Modulus
         int mod = num1 - num2;
         System.out.println("Modulus of " + num1 + " and " + num2 + " is : " + mod);
+
+        scanner.close();
 
     }
 }
